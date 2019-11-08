@@ -1,0 +1,8 @@
+multiplicados.dat: multiplicados.x
+	./multiplicados.x > multiplicados.dat
+
+multiplicados.x: multiplicado.cpp
+	c++ multiplicado.cpp -o multiplicados.x
+    
+
+    
